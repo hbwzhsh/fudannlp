@@ -1,0 +1,123 @@
+package edu.fudan.nlp.tag;
+import java.io.BufferedOutputStream;
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.ObjectOutputStream;
+import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.SortedMap;
+import java.util.TreeMap;
+import java.util.Map.Entry;
+import java.util.zip.GZIPOutputStream;
+import edu.fudan.ml.types.Alphabet;
+public class Convert {
+	public void convert(String from, String to) {
+	try {
+		BufferedReader rd = new BufferedReader(
+					new InputStreamReader(new FileInputStream(from), "gbk"));
+		ObjectOutputStream out = new ObjectOutputStream(new BufferedOutputStream (
+				new GZIPOutputStream (new FileOutputStream(to))));
+		Alphabet labels = new Alphabet();
+		Alphabet features = new Alphabet();
+		String s;
+		rd.readLine();
+		List lst = new ArrayList();
+		while(true) {
+			s = rd.readLine();
+			if(s.isEmpty()) break;
+			lst.add(s);
+		}
+		out.writeInt(lst.size());
+		Iterator it1 = lst.iterator();
+		while(it1.hasNext()) {
+			out.writeObject(it1.next());
+		}
+		s = rd.readLine();
+		int nLabel = Integer.parseInt(s);
+		System.out.println(nLabel);
+		for(int i=0; i<nLabel; i++) {
+			s = rd.readLine();
+			labels.lookupIndex(s);
+		}
+		out.writeObject(labels);
+		rd.readLine();
+		rd.readLine();
+		rd.readLine();
+		TreeMap map = new TreeMap();
+		String[] arr;
+		s = rd.readLine();
+		int nFeature = Integer.parseInt(s);
+		System.out.println(nFeature);
+		for(int i=0; i<nFeature; i++) {
+			s = rd.readLine();
+			arr = s.split("\t");
+			map.put(Integer.parseInt(arr[1]), arr[0]);
+		}
+		rd.readLine();
+		s = rd.readLine();
+		int nIndex = Integer.parseInt(s);
+		System.out.println(nIndex);
+		int[] index = new int[nIndex];
+		for(int i=0; i<nIndex; i++) {
+			s = rd.readLine();
+			index[i] = Integer.parseInt(s);
+		}
+		rd.readLine();
+		s = rd.readLine();
+		int nWeight = Integer.parseInt(s);
+		System.out.println(nWeight);
+		double[] wt = new double[nWeight];
+		for(int i=0; i<nWeight; i++) {
+			s = rd.readLine();
+			wt[i] = Double.parseDouble(s);
+		}
+		Iterator<Entry> it2 = map.entrySet().iterator();
+		Entry e1, e2;
+		int key1 = 0, key2 = 0;
+		String v1 = null, v2 = null;
+		e1 = it2.next();
+		while(e1 != null) {
+			key1 = (Integer) e1.getKey();
+			v1 = (String) e1.getValue();
+			if(it2.hasNext()) {
+				e2 = it2.next();
+				key2 = (Integer) e2.getKey();
+			} else {
+				e2 = null;
+				key2 = nIndex;
+			}
+			int ofs = features.lookupIndex(v1, key2-key1);
+			e1 = e2;
+			System.out.print(key1);
+			System.out.print('\t');
+			System.out.print(ofs);
+			System.out.print('\t');
+			System.out.println(v1);
+		}
+		System.out.println(features.size());
+		out.writeObject(features);
+		double[] weights = new double[nIndex];
+		for(int i=0; i<nIndex; i++) {
+			if(index[i] == -1)
+				weights[i] = 0.0;
+			else
+				weights[i] = wt[index[i]];
+		}
+		out.writeObject(weights);
+		rd.close();
+		out.close();
+	} catch (IOException e) {
+		e.printStackTrace();
+	}
+	}
+	public static void main(String[] args) {
+		new Convert().convert("d:\\PeopleDailyCorpus\\peopledaily.seg.model.1",
+				"d:\\PeopleDailyCorpus\\peopledaily.seg.model.gz");
+	}
+}
