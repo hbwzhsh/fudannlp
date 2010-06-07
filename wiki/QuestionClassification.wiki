@@ -1,3 +1,2 @@
-#summary One-sentence summary of this page.
 #labels 中文问题分类,问题回答
 中文问题分类语料集
