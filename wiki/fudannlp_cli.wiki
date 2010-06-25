@@ -1,5 +1,5 @@
+#summary fudannlp命令行调用方式
 #labels Featured
-fudannlp命令行调用方式
 
 {{{
 序列标注：
