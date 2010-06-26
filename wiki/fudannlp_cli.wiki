@@ -4,14 +4,14 @@
 {{{
 序列标注：
 	训练：
-	java -classpath fudannlp.jar;commons-cli-1.2.jar edu.fudan.nlp.tag.Tagger -train template train model
+	java -classpath fudannlp.jar edu.fudan.nlp.tag.Tagger -train template train model
 	测试：
-	java -classpath fudannlp.jar;commons-cli-1.2.jar edu.fudan.nlp.tag.Tagger model test result
+	java -classpath fudannlp.jar edu.fudan.nlp.tag.Tagger model test result
 
 
 分词：
-java -classpath fudannlp.jar;commons-cli-1.2.jar edu.fudan.nlp.tag.SEG -s ../model/seg.gz 门把手弄坏了
+java -classpath fudannlp.jar edu.fudan.nlp.tag.SEG -s ../model/seg.gz 门把手弄坏了
 
 实体名识别：
-java -classpath fudannlp.jar;commons-cli-1.2.jar edu.fudan.nlp.tag.NER -s ../model/ner.gz "意大利定新帅上任日期 荷兰全胜出线"
+java -classpath fudannlp.jar edu.fudan.nlp.tag.NER -s ../model/ner.gz "意大利定新帅上任日期 荷兰全胜出线"
 }}}
