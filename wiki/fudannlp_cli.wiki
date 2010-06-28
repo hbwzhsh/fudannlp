@@ -1,17 +1,38 @@
 #summary fudannlp命令行调用方式
 #labels Featured
 
+
+* 序列标注
 {{{
-序列标注：
 	训练：
 	java -classpath fudannlp.jar edu.fudan.nlp.tag.Tagger -train template train model
 	测试：
 	java -classpath fudannlp.jar edu.fudan.nlp.tag.Tagger model test result
-
-
-分词：
+---
+}}}
+* 分词
+{{{
 java -classpath fudannlp.jar edu.fudan.nlp.tag.SEG -s ../model/seg.gz 门把手弄坏了
-
-实体名识别：
+---
+门把手 弄 坏 了
+}}}
+* 实体名识别
+{{{
 java -classpath fudannlp.jar edu.fudan.nlp.tag.NER -s ../model/ner.gz "意大利定新帅上任日期 荷兰全胜出线"
+---
+{意大利=ns, 荷兰=ns}
+}}}
+
+* 词性标志
+{{{
+java -classpath fudannlp.jar edu.fudan.nlp.tag.POS -s ..
+/model/pos.gz "英德之战结束后，英格兰被判无效的好球是最大的议论话题，引进门线科
+技手段来帮助裁判裁决的呼声再次高涨，但从国际足联回馈出的声音却显示，他们并不打算
+这样做。"
+---
+英/NR 德/NR 之/DEG 战/NN 结束/VV 后/LC ，/PU 英格兰/NR 被/SB 判/VV 无效/VV 的/DE
+C 好/JJ 球/NN 是/VC 最/AD 大/VA 的/DEC 议论/NN 话题/NN ，/PU 引进/NN 门线/NN 科
+技/NN 手段/NN 来/MSP 帮助/VV 裁判/NN 裁决/NN 的/DEG 呼声/NN 再次/AD 高涨/VV ，/P
+U 但/AD 从/P 国际/NN 足联/NN 回馈/VV 出/VV 的/DEC 声音/NN 却/AD 显示/VV ，/PU 他
+们/PN 并不/AD 打算/VV 这样/AD 做/VV 。/PU
 }}}
