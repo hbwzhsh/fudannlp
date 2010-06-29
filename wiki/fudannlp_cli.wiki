@@ -23,7 +23,7 @@ java -classpath fudannlp.jar edu.fudan.nlp.tag.NER -s ./model/ner.gz "意大利�
 {意大利=ns, 荷兰=ns}
 }}}
 
-* 词性标志
+* 词性标注
 {{{
 java -classpath fudannlp.jar edu.fudan.nlp.tag.POS -s ./model/pos.gz 
 "英德之战结束后，英格兰被判无效的好球是最大的议论话题，引进门线科
