@@ -8,4 +8,4 @@
 
 
 ==下载地址==
-http://fudannlp.googlecode.com/files/FudanQuestionBank.zip
+[http://fudannlp.googlecode.com/files/FudanQuestionBank.zip 中文问题分类数据集1.0版]
