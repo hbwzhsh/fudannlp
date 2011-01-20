@@ -1,5 +1,5 @@
+#summary fudannlp Web Services调用方式
 #labels FudanNLP,WebServices,Featured
-#fudannlp Web Services调用方式
 
 {{{
 import java.io.BufferedReader;
