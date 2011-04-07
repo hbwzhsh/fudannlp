@@ -1,20 +1,23 @@
-#summary 项目开发人员
-#labels Featured
-{{{
+#summary 项目开发人员（参与项目时间）
+#labels Featured,开发人员
+
 We would like to thank the following people for their help and support.
 
-Developers
-=======
-Xipeng Qiu
-Wenjun Gao
-Ji Feng
-Ling Cao
-Jiayi Zhao
-Le Tian
-Youdong Miao
-Chao Shen
+=Developers=
+Xipeng Qiu (2009-)
 
-Thirdparty People
-======
+Wenjun Gao (2009-)
 
-}}}
+Ji Feng (2009-)
+
+Ling Cao (2010-)
+
+Jiayi Zhao (2010-)
+
+Le Tian (2010-)
+
+Youdong Miao (2009-2010)
+
+Chao Shen (2009)
+
+=Thirdparty People=
