@@ -18,7 +18,7 @@ edu.fudan.ml.struct.solver
 edu.fudan.ml.types
 edu.fudan.nlp.chinese
 edu.fudan.nlp.chinese.ner
-edu.fudan.nlp.extraction
+edu.fudan.nlp.keyword
 edu.fudan.nlp.parser
 edu.fudan.nlp.parser.dep.yamada
 edu.fudan.nlp.resources
