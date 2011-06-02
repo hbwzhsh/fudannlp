@@ -1,13 +1,8 @@
-#11
+#常见问题
 
-= Introduction =
-
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+  # Q: Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+   A: 增加java Heap size的值。
+       java -jar -Xms500m -Xmx1g fudannlp.jar
+       Eclipse调整VM Argument文本框中加入：-Xms500m -Xmx1g
+  # Q: 
+    A: 
