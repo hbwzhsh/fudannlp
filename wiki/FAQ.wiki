@@ -1,8 +1,3 @@
 #summary 常见问题
-
-  # Q: Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
-   A: 增加java Heap size的值。
-       java -jar -Xms500m -Xmx1g fudannlp.jar
-       Eclipse调整VM Argument文本框中加入：-Xms500m -Xmx1g
-  # Q: 
-    A: 
+|| *问题* || *解决办法* ||
+|| Exception in thread "main" java.lang.OutOfMemoryError: Java heap space || 增加java Heap size的值。       java -jar -Xms500m -Xmx1g fudannlp.jar   。 Eclipse调整VM Argument文本框中加入：-Xms500m -Xmx1g ||
