@@ -19,3 +19,5 @@
 [http://fudannlp.googlecode.com/files/FudanQuestionBank.zip 中文问题分类数据集1.0版]
 
 本数据集使用LGPL3.0许可证。
+
+使用本数据请注明数据来源 "QuestionBank: http://code.google.com/p/fudannlp/w/edit/QuestionClassification"
