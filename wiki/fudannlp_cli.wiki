@@ -13,20 +13,20 @@
 }}}
 * 分词
 {{{
-java -classpath fudannlp.jar edu.fudan.nlp.tag.SEG -s ./model/seg.gz 门把手弄坏了
+java -classpath fudannlp.jar edu.fudan.nlp.tag.CWSTagger-s ./model/seg.gz 门把手弄坏了
 ---
 门把手 弄 坏 了
 }}}
 * 实体名识别
 {{{
-java -classpath fudannlp.jar edu.fudan.nlp.tag.NER -s ./model/ner.gz "意大利定新帅上任日期 荷兰全胜出线"
+java -classpath fudannlp.jar edu.fudan.nlp.tag.NERTagger -s ./model/ner.gz "意大利定新帅上任日期 荷兰全胜出线"
 ---
 {意大利=ns, 荷兰=ns}
 }}}
 
 * 词性标注
 {{{
-java -classpath fudannlp.jar edu.fudan.nlp.tag.POS -s ./model/pos.gz 
+java -classpath fudannlp.jar edu.fudan.nlp.tag.POSTagger -s ./model/pos.gz 
 "英德之战结束后，英格兰被判无效的好球是最大的议论话题，引进门线科
 技手段来帮助裁判裁决的呼声再次高涨，但从国际足联回馈出的声音却显示，他们并不打算
 这样做。"
