@@ -1,5 +1,5 @@
 #summary 项目开发人员（参与项目时间段）
-#labels Featured,开发人员
+#labels 开发人员
 
 We would like to thank the following people for their help and support.
 
