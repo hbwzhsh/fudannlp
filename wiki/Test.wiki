@@ -1,5 +1,5 @@
 #summary 系统测试
-#labels 系统测试,Featured,性能测试
+#labels 系统测试,性能测试
 
 =测试平台：=
 
