@@ -1,5 +1,20 @@
-#summary fudannlp Web Services调用方式
+#summary FudanNLP Web Services调用方式
 #labels FudanNLP,WebServices,Featured
+
+=FudanNLP Web Services=
+采用REST架构，直接通过URL方法调用。调用格式为：
+
+http://jkx.fudan.edu.cn/fudannlp/{seg|ner|pos|key|time|tree}/{input}
+
+如：
+
+http://jkx.fudan.edu.cn/fudannlp/seg/他说的确实在理
+
+*受URL长度限制，目前最大的输入长度限制为700汉字。*
+
+=封装SDK=
+
+==Java调研代码==
 
 {{{
 import java.io.BufferedReader;
