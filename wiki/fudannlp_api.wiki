@@ -1,4 +1,0 @@
-#summary fudannlp程序接口
-#labels Featured
-
-<font color="#FF0000">最新版请参考发布包内example示例。</font>
