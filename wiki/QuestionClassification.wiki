@@ -20,4 +20,13 @@
 
 本数据集使用LGPL3.0许可证。
 
-使用本数据请注明数据来源 "QuestionBank: http://code.google.com/p/fudannlp/w/edit/QuestionClassification"
+使用本数据请引用文献：
+@article{邱锡鹏2012基于主动学习的中文问题分类数据集构建,
+  title={基于主动学习的中文问题分类数据集构建},
+  author={邱锡鹏 and 缪有栋 and 黄萱菁},
+  journal={哈尔滨工业大学学报},
+  volume={44},
+  number={005},
+  pages={125--128},
+  year={2012}
+}
