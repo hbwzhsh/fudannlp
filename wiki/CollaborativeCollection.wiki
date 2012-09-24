@@ -14,7 +14,7 @@
 
 = 众包方式的中文分词疑难例子收集 =
 
-先从分词开始--，希望大家贡献中文分词的疑难例子，并获取
+<font color="#FF0000"> 先从分词开始--，希望大家贡献中文分词的疑难例子，并享受协同创作的成果。 </font>
 
 数据收集地址：https://docs.google.com/spreadsheet/viewform?formkey=dFV1cDVranhzcWpEempsWGdIS0xLNUE6MQ#gid=0 
 
