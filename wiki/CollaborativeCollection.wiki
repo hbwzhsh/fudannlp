@@ -1,0 +1,14 @@
+#summary 众包方式的中文分词疑难例子收集
+#labels 众包,疑难,例子,语料收集,分词语料,自然语言处理
+
+= 协同制造，众人拾柴火焰高 =
+==众包的好处==
+
+= 众包方式的中文分词疑难例子收集 =
+
+数据收集地址：https://docs.google.com/spreadsheet/viewform?formkey=dFV1cDVranhzcWpEempsWGdIS0xLNUE6MQ#gid=0 
+
+语料共享地址：https://docs.google.com/spreadsheet/ccc?key=0AmV2Fp0jl_KGdFV1cDVranhzcWpEempsWGdIS0xLNUE#gid=0
+
+= 众包方式的中文词性、句法例子收集 =
+即将推出
