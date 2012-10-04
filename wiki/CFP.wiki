@@ -7,6 +7,6 @@
 ||[http://www.aaai.org/Conferences/AAAI/aaai13.php AAAI 2013] || Bellevue, Washington, USA||  Jan 19, 2013,Jan 22, 2013||Mar 26, 2013||
 ||[http://acl2013.org ACL 2013] || Sofia, Bulgaria ||  ||
 ||[http://www.cikm2013.org/ CIKM 2013] || San Francisco, CA, USA||  ||
-||[http://1 IJCAI 2013] || Beijing, August 3-4, 2013||  ||
+||[http://www.ezconf.net/ijcai13/ IJCAI 2013] || Beijing, August 3-4, 2013||  ||
 ||[http://1 EMNLP 2013] || ||  ||
 ||[http://1 IJCNLP 2013] || ||  ||
