@@ -18,8 +18,7 @@
 
 数据收集地址：https://docs.google.com/spreadsheet/viewform?formkey=dFV1cDVranhzcWpEempsWGdIS0xLNUE6MQ#gid=0 
 
-语料共享地址：https://docs.google.com/spreadsheet/ccc?key=0AmV2Fp0jl_KGdFV1cDVranhzcWpEempsWGdIS0xLNUE#gid=0
-请记下地址：以后会只有提交正确数据后才可以获得语料共享地址
+语料共享地址：只有提交正确数据后才可以获得语料共享地址
 
 = 众包方式的中文词性、句法例子收集 =
 即将推出
