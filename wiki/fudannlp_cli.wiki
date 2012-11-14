@@ -6,12 +6,15 @@
 * 序列标注
 {{{
 	训练：
-	java -classpath fudannlp.jar edu.fudan.nlp.tag.Tagger -train template train model
+	java -classpath fudannlp.jar;lib/commons-cli-1.2.jar;lib/trove
+jar; edu.fudan.nlp.tag.Tagger -train template train model
 	测试：
-	java -classpath fudannlp.jar edu.fudan.nlp.tag.Tagger model test result
+	java -classpath fudannlp.jar;lib/commons-cli-1.2.jar;lib/trove
+jar; edu.fudan.nlp.tag.Tagger model test result
 ---
 }}}
 
+* 中文自然语言处理
 {{{
 分词实例
 
