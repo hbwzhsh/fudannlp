@@ -1,7 +1,7 @@
 #summary fudannlp命令行调用方式
-#labels Featured
+#labels Featured,命令行调用方式
 
-<font color="#FF0000">最新版请参考发布包内“test-example.cmd”示例。</font>
+<font color="#FF0000">最新版请参考发布包内“FudanNLP Function Test.cmd”示例。</font>
 
 * 序列标注
 {{{
