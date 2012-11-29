@@ -2,7 +2,7 @@
 #labels Featured,调用方法
 
 =FudanNLP Book=
-This book introduce the principle, thoery and realization method of FudanNLP in detail. 
+This book introduces the principle, thoery and realization method of FudanNLP in detail. 
  * [http://vdisk.weibo.com/s/iyiB0 Book v0.01]
 
 =第三方工具包(Third-Part Libs)=
