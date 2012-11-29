@@ -1,13 +1,21 @@
-#summary One-sentence summary of this page.
-
-= Introduction =
-
-Add your content here.
+#summary Navigation Page
 
 
-= Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+[http://code.google.com/p/fudannlp/wiki/CollaborativeCollection 协同数据收集]
+
+[http://jkx.fudan.edu.cn/nlp 演示地址(Demo Website)] 
+
+[https://fudannlp.googlecode.com/svn/FudanNLP-1.5-API/java-docs/index.html FudanNLP API 1.5版]
+
+[QuickStart 使用说明]
+
+[UpdateHistory 发布记录]
+
+[ChangeLog 更新日志]
+
+[Benchmark 性能测试(Benchmark)] 
+
+[DevPlan 开发计划(Development Plan)] 
+
+[People 开发人员列表(Developers)]
