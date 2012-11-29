@@ -1,9 +1,8 @@
 #summary FudanNLP API
 #labels Featured,API方式调用
-= Introduction =
 
-Detail information can be found in directory _example_.
+= FudanNLP API调用方式 =
 
-The packages start with `edu.fudan.example.*`.
+Detailed usage samples can be found in directory _example_. These packages start with `edu.fudan.example.*`.
 
 The API documents can be found here. [https://fudannlp.googlecode.com/svn/FudanNLP-1.5-API/java-docs/index.html FudanNLP API 1.5]
