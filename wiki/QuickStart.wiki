@@ -2,14 +2,15 @@
 #labels Featured,调用方法
 
 =FudanNLP Book=
+This book introduce the principle, thoery and realization method of FudanNLP in detail. 
  * [http://vdisk.weibo.com/s/iyiB0 Book v0.01]
 
-=第三方工具包=
+=第三方工具包(Third-Part Libs)=
  * trove 3.0.3 http://trove.starlight-systems.com/
  * commons-cli-1.2.jar(Just needed when invoking fudannlp from the command line) http://commons.apache.org/cli/
  * JRE 1.6 above
 
-=使用方法=
+=使用方法(Usages)=
 我们提供三种调用方法：
 
  * [fudannlp_api API调用方式]
