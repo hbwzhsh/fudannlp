@@ -1,0 +1,12 @@
+#summary QuickStart
+#labels Featured
+
+=第三方工具包=
+ * trove 3.0.3 http://trove.starlight-systems.com/
+ * commons-cli-1.2.jar http://commons.apache.org/cli/
+ * JRE 1.6 above
+
+=使用方法=
+ * [fudannlp_api API调用方式]
+ * [fudannlp_cli 命令行调用方式]
+ * [fudannlp_ws WebServices方式]
