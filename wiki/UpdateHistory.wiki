@@ -1,9 +1,0 @@
-#summary Update History
-#labels Featured
-
- * 2011.10.14 发布FudanNLP1.05版，增加程序注释，修正一些bug，支持并行化， <font color="#FF0000">支持自定义词典</font>，高速关键词抽取等
- * 2011.8.1 发布FudanNLP 1.0版 <font color="#FF0000">（速度更快，内存占有更少）</font>
- * 2011.1.20 发布FudanNLP [http://code.google.com/p/fudannlp/wiki/fudannlp_ws WebServices版] [http://jkx.fudan.edu.cn/fudannlp]
- * 2010.12.22 发布FudanNLP 0.95版
- * 2010.9.15 web演示更新 基于0.95版
- * 2010.06.28 发布FudanNLP 0.8
