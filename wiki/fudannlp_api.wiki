@@ -1,6 +1,9 @@
-#summary One-sentence summary of this page.
-#labels Featured
-
+#summary FudanNLP API
+#labels Featured,API方式调用
 = Introduction =
 
-[https://fudannlp.googlecode.com/svn/FudanNLP-1.5-API/java-docs/index.html FudanNLP API 1.5版]
+Detail information can be found in directory _example_.
+
+The packages start with `edu.fudan.example.*`.
+
+The API documents can be found here. [https://fudannlp.googlecode.com/svn/FudanNLP-1.5-API/java-docs/index.html FudanNLP API 1.5]
