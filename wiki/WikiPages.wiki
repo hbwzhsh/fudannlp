@@ -10,8 +10,6 @@
 
 [QuickStart 使用说明]
 
-[VersionHistory 发布记录]
-
 [ChangeLog 更新日志]
 
 [Benchmark 性能测试(Benchmark)] 
