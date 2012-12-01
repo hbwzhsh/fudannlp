@@ -4,7 +4,7 @@
 We would like to thank the following people for their help and support.
 
 =项目负责=
- * 邱锡鹏 [http://weibo.com/xpqiu 微博]
+ * 邱锡鹏 [http://weibo.com/xpqiu 微博] [http://jkx.fudan.edu.cn/~xpqiu/ 主页]
  
 =当前开发人员（按起始参与时间排序）=
 
