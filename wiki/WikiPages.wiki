@@ -1,19 +1,18 @@
 #summary Navigation Page
 
+ * [QuickStart  快速开始 (Quick Start)]
 
+ * [http://code.google.com/p/fudannlp/wiki/CollaborativeCollection 协同数据收集]
 
-[http://code.google.com/p/fudannlp/wiki/CollaborativeCollection 协同数据收集]
+ * [http://jkx.fudan.edu.cn/nlp 演示地址(Demo Website)] 
 
-[http://jkx.fudan.edu.cn/nlp 演示地址(Demo Website)] 
+ * Java Docs
+  * [https://fudannlp.googlecode.com/svn/FudanNLP-1.5-API/java-docs/index.html Ver 1.5]
 
-[https://fudannlp.googlecode.com/svn/FudanNLP-1.5-API/java-docs/index.html FudanNLP API 1.5版]
+ * [ChangeLog 更新日志 (Change Log)]
 
-[QuickStart 使用说明]
+ * [Benchmark 性能测试 (Benchmark)] 
 
-[ChangeLog 更新日志]
+ * [DevPlan 开发计划 (Development Plan)] 
 
-[Benchmark 性能测试(Benchmark)] 
-
-[DevPlan 开发计划(Development Plan)] 
-
-[People 开发人员列表(Developers)]
+ * [People 开发人员列表 (Developers)]
