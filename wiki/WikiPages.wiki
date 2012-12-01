@@ -6,8 +6,7 @@
 
  * [http://jkx.fudan.edu.cn/nlp 演示地址(Demo Website)] 
 
- * Java Docs
-  * [https://fudannlp.googlecode.com/svn/FudanNLP-1.5-API/java-docs/index.html Ver 1.5]
+ * [https://fudannlp.googlecode.com/svn/FudanNLP-1.5-API/java-docs/index.html Java Docs 1.5]
 
  * [ChangeLog 更新日志 (Change Log)]
 
