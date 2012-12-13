@@ -12,6 +12,8 @@
 
  * [Benchmark 性能测试 (Benchmark)] 
 
+ * [Custom 定制功能 (Custom)]
+
  * [DevPlan 开发计划 (Development Plan)] 
 
  * [People 开发人员列表 (Developers)]
