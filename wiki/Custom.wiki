@@ -1,7 +1,7 @@
 #summary FudanNLP定制功能.
 #labels Featured,FudanNLP定制功能
 
-开源代码请到[http://code.google.com/p/fudannlp/downloads/list Downloads]下载。
+开源代码请到[http://code.google.com/p/fudannlp/downloads/list Downloads]下载。本页面提供一些定制的自然语言处理功能。
 
 = 定制功能 =
   * 地址名识别
