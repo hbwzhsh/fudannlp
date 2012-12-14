@@ -2,7 +2,7 @@
 #labels CFP,论文投稿,近期NLPCL会议
 
 || *Event* || *Where* || *Deadline* || *Notification* ||
-||[http://www2013.org WWW 2013] || Rio, Brazil||  November 19th, 2012 November 26th, 2012||February 8th, 2013||
+||~~[http://www2013.org WWW 2013 ]~~|| Rio, Brazil||  November 19th, 2012 November 26th, 2012||February 8th, 2013||
 ||[http://sigir2013.ie/ SIGIR 2013] || Dublin, Ireland||  Jan 21, 2013, Jan 28, 2013||Apr 15, 2013||
 ||[http://www.aaai.org/Conferences/AAAI/aaai13.php AAAI 2013] || Bellevue, Washington, USA||  Jan 19, 2013,Jan 22, 2013||Mar 26, 2013||
 ||[http://acl2013.org ACL 2013] || Sofia, Bulgaria ||  February 20th, 2013 (Long),April 14th, 2013(Short) || April 7th(Long),May 12th(Short)||
