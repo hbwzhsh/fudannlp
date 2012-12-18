@@ -8,5 +8,6 @@
 ||[http://acl2013.org ACL 2013] || Sofia, Bulgaria ||  February 20th, 2013 (Long),April 14th, 2013(Short) || April 7th(Long),May 12th(Short)||
 ||[http://www.cikm2013.org/ CIKM 2013] || San Francisco, CA, USA||  ||
 ||[http://http://ijcai13.org IJCAI 2013] || Beijing, August 3-4, 2013|| Abstract : January 26, 2013. Paper: January 31, 2013 ||April 2, 2013||
+||[http://www.clips.ua.ac.be/conll/ CONLL 2013] || Sofia, Bulgaria || April 17 ||May 28, 2013||
 ||[http://1 EMNLP 2013] || ||  ||
 ||[http://1 IJCNLP 2013] || ||  ||
