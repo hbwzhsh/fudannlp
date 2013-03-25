@@ -2,10 +2,10 @@
 #labels Featured
 1.55 2013.3.25
 ----
-1. 优化了分词、句法分析模型
-2. 调整分类器结构
-3. 增加lucene接口 apps/org.fnlp.app.lucene
-4. 修改小的BUG
+# 优化了分词、句法分析模型
+# 调整分类器结构
+# 增加lucene接口 apps/org.fnlp.app.lucene
+# 修改小的BUG
 ----
 1.5 2012.11.16
 
