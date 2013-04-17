@@ -19,3 +19,13 @@
 [http://fudannlp.googlecode.com/files/uncertainty-0.1.zip 中文不确定性检测数据集0.1版]
 
 本数据集使用LGPL3.0许可证。
+
+使用本数据集请引用论文：
+
+@INPROCEEDINGS{计峰:2010,
+  author = {计峰 and 邱锡鹏 and 黄萱菁},
+  title = {中文不确定性句子的识别研究},
+  booktitle = {第六届全国信息检索学术会议},
+  year = {2010},
+  abbrev = {CCIR}
+}
