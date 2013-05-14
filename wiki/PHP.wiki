@@ -1,7 +1,7 @@
 #summary PHP调用方式
 
 Reported by tiny051401
-
+{{{
 class NplRequest{
 	private $fudanUrl = "http://jkx.fudan.edu.cn/fudannlp/";
 	private $connecttimeout = 20;
@@ -44,3 +44,4 @@ class NplRequest{
 		return $response;
 	}
 }
+}}}
