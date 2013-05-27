@@ -3,6 +3,7 @@
 ==技术问题==
 || *问题* || *解决办法* ||
 || Exception in thread "main" java.lang.!OutOfMemoryError: Java heap space || 增加java Heap size的值。       java -Xmx2g -jar  fudannlp.jar   。 Eclipse调整VM Argument文本框中加入：-Xmx2g ||
+||如何调整Eclipse内存||打开eclipse  window－preferences－Java －Installed JREs －Edit －Default VM Arguments。   在VM自变量中输入：-Xmx500m||
 ||Exception  in  thread  "main" java.lang.!NoClassDefFoundError: java||需要加入附加的两个jar文件||
 
 ==使用问题==
