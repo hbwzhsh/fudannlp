@@ -9,7 +9,7 @@ FudanNLP的组织结构可分为5层：
  # 中文自然语言处理应用，比如分词、句法分析等。
  # 系统应用，比如文本分类、主题词抽取等。
 
-=FudanNLP目录结构=
+=目录结构=
 || *目录* || *描述*||
 ||    /src || 主要功能代码，主目录。 ||
 ||    /test  || 测试或单元测试代码。 ||
@@ -19,7 +19,7 @@ FudanNLP的组织结构可分为5层：
 ||    /models      ||必须的模型文件或知识文件 ||
 ||    /docs || 项目文档 ||
 
-=FudanNLP目录结构=
+=Java包组织结构=
 ||     *目录* || *描述* ||
 ||      edu.fudan.ml.types || 数据类型。||
 ||      edu.fudan.ml.data || 数据读取器。通过Reader接口将原始数据读入，并生产Instance对象。Reader为一个迭代器，依次返回一个Instance对象。||
@@ -28,6 +28,17 @@ FudanNLP的组织结构可分为5层：
 ||      edu.fudan.ml.loss      || 损失函数||
 ||      edu.fudan.ml.inf      || 统计推理。这里对于离散的类别，使用简单遍历计算，然后求最大值得方法。||
 
+=自然语言处理基础相关的Java包=
+||     *目录* || *描述* ||
+|| edu.fudan.nlp.pipe ||数据特征变换器。这里进行数据不同形式表示之间的转换。比如从文本到向量的转换。||
+|| edu.fudan.nlp.parser ||句法分析包。||
+|| edu.fudan.nlp.tag    ||序列标注任务训练等。||
+|| edu.fudan.nlp.cn    ||分词、词性标注、实体名识别、以及中文处理一些规则方法。||
+
+=自然语言处理应用相关的Java包=
+||     *目录* || *描述* ||
+|| edu.fudan.nlp.app.keyword || 关键词抽取。||
+||   edu.fudan.nlp.app.tc || 文本分类器。||
 
 =使用方法(Usages)=
 
