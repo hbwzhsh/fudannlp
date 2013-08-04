@@ -1,12 +1,11 @@
 #summary FudanNLP Changes Log
 #labels Featured
-1.6 2013.8.1
+1.6 2013.7.31
 ----
  # 优化了分词、词性、句法分析模型
  # 修改小的BUG
 ----
 1.55 2013.3.25
-----
  # 优化了分词、句法分析模型
  # 调整分类器结构
  # 增加lucene接口 apps/org.fnlp.app.lucene
