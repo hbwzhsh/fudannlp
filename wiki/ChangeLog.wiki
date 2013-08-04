@@ -1,7 +1,7 @@
 #summary FudanNLP Changes Log
 #labels Featured
-1.6 2013.7.31
 ----
+1.6 2013.7.31
  # 优化了分词、词性、句法分析模型
  # 修改小的BUG
 ----
