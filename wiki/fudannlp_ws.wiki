@@ -7,11 +7,11 @@
 
 调用格式为：
 
-http://jkx.fudan.edu.cn/fudannlp/{seg|ner|pos|key|time|tree}/{input}
+http://api2.lingclouds.com/{seg|ner|pos|key|time|tree}/{input}
 
 如：
 
-http://jkx.fudan.edu.cn/fudannlp/seg/他说的确实在理
+http://api2.lingclouds.com/seg/他说的确实在理
 
 =已知问题=
 *受URL长度限制，目前最大的输入长度限制为700汉字。*
@@ -34,7 +34,7 @@ import java.net.URLEncoder;
  */
 public class Demo {
 	
-	static String u = "http://jkx.fudan.edu.cn/fudannlp/";
+	static String u = "http://api2.lingclouds.com/";
 	
 	public static String nlp(String func, String input) throws IOException {	
 		// must encode url!! if we write FudannlpResource.seg(String) this way
@@ -73,7 +73,7 @@ public class Demo {
 	}
 	
 	public static void main(String[] args) throws IOException {
-		// 也可直接用IE访问 http://jkx.fudan.edu.cn/fudannlp/seg/开源中文自然语言处理工具包 FudanNLP
+		// 也可直接用IE访问 http://api2.lingclouds.com/seg/开源中文自然语言处理工具包 FudanNLP
 		System.out.println(welcome());
 		System.out.println(nlp("key"));
 		System.out.println(nlp("seg", "开源中文自然语言处理工具包 FudanNLP"));
